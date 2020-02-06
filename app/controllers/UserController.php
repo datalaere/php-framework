@@ -4,7 +4,9 @@ namespace App\Controllers;
 
 use PHP\MVC\Controller;
 
-class DefaultController extends Controller
+use App\Models\UserModel;
+
+class UserController extends Controller
 {
 
         /**
@@ -13,7 +15,7 @@ class DefaultController extends Controller
      */
     public function index()
     {
-        return $this->view->render(['default']);
+        //
     }
 
     /**
@@ -31,7 +33,7 @@ class DefaultController extends Controller
      */
     public function store()
     {
-        //
+        $user = new UserModel();
     }
 
     /**

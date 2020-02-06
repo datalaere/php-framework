@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e9181ea93968ec77c63ca5578fd916ed",
+    "content-hash": "481705f7372fc22630bd6c26268039fd",
     "packages": [
         {
             "name": "datalaere/php-crud",
@@ -72,6 +72,40 @@
                 "issues": "https://github.com/datalaere/php-di/issues"
             },
             "time": "2020-02-05T20:24:11+00:00"
+        },
+        {
+            "name": "datalaere/php-filesystem",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/datalaere/php-filesystem.git",
+                "reference": "49efec0ecda8f7bb21ba146b5b2533ad5cf7a020"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/datalaere/php-filesystem/zipball/49efec0ecda8f7bb21ba146b5b2533ad5cf7a020",
+                "reference": "49efec0ecda8f7bb21ba146b5b2533ad5cf7a020",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHP\\Filesystem\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Simple, useful classes for working with the server filesystem",
+            "homepage": "https://github.com/datalaere/php-filesystem",
+            "support": {
+                "source": "https://github.com/datalaere/php-filesystem/tree/master",
+                "issues": "https://github.com/datalaere/php-filesystem/issues"
+            },
+            "time": "2020-02-06T10:47:28+00:00"
         },
         {
             "name": "datalaere/php-http",
@@ -1667,7 +1701,8 @@
         "datalaere/php-mvc": 20,
         "datalaere/php-di": 20,
         "datalaere/php-http": 20,
-        "datalaere/php-crud": 20
+        "datalaere/php-crud": 20,
+        "datalaere/php-filesystem": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

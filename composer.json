@@ -23,6 +23,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/datalaere/php-http"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/datalaere/php-filesystem"
         }
     ],
     "require-dev": {
@@ -33,7 +37,8 @@
         "datalaere/php-mvc": "dev-master",
         "datalaere/php-di": "dev-master",
         "datalaere/php-http": "dev-master",
-        "datalaere/php-crud": "dev-master"
+        "datalaere/php-crud": "dev-master",
+        "datalaere/php-filesystem": "dev-master"
     },
     "config": {
         "optimize-autoloader": true,

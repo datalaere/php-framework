@@ -1,2 +1,2 @@
-# php-skeleton
-Standard PHP package skeleton for starting new projects. Optimized for shared hosting.
+# php-framework
+Simple PHP framework for starting new projects. Optimized for shared hosting. Based on simple and small single-file classes.

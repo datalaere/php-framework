@@ -25,6 +25,7 @@ return [
         'default'   => ['email' => 'no-reply@mail.com', 'from' => 'Webmaster'],
     ],
     'connections' => [
+        'enabled' => true,
         'mysql' => [
             'driver'    => $_ENV['DB_DRIVER'] ?: 'mysql',
             'host'      => $_ENV['DB_HOST'] ?: 'localhost',

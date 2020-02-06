@@ -22,7 +22,6 @@ $app = PHP\DI\Container::singleton();
 |
 */
 
-// ENV
 if (file_exists(ROOT_PATH . 'env.ini')) {
     $_ENV = parse_ini_file(ROOT_PATH . 'env.ini');
     $app->set('config', require APP_PATH . 'config/environments/' . $_ENV['APP_ENV'] . '.php');

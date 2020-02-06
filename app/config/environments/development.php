@@ -24,8 +24,8 @@ return [
         'protocol'  => '',   // SSL or TLS
         'default'   => ['email' => 'no-reply@mail.com', 'from' => 'Webmaster'],
     ],
-    /*
     'connections' => [
+        'enabled' => false,
         'mysql' => [
             'driver'    => $_ENV['DB_DRIVER'] ?: 'mysql',
             'host'      => $_ENV['DB_HOST'] ?: 'localhost',
@@ -38,5 +38,4 @@ return [
             'strict'    => false,
         ],
     ],
-    */
 ];
