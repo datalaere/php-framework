@@ -4,20 +4,64 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8ecf35e32bf3848f89d416150f88ec61",
+    "content-hash": "80a716a481b6392d22c0b4404d1cc771",
     "packages": [
+        {
+            "name": "datalaere/php-auth",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/datalaere/php-auth.git",
+                "reference": "6a44bbe75b9118c6ca7d39b44f1edc5d2f340aa6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/datalaere/php-auth/zipball/6a44bbe75b9118c6ca7d39b44f1edc5d2f340aa6",
+                "reference": "6a44bbe75b9118c6ca7d39b44f1edc5d2f340aa6",
+                "shasum": ""
+            },
+            "require": {
+                "datalaere/php-crud": "dev-master",
+                "datalaere/php-http": "dev-master",
+                "datalaere/php-security": "dev-master",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHP\\Auth\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Authentication project for managing users and their permissions ",
+            "homepage": "https://github.com/datalaere/php-auth",
+            "keywords": [
+                "auth",
+                "authentication",
+                "login",
+                "permissions",
+                "user"
+            ],
+            "support": {
+                "source": "https://github.com/datalaere/php-auth/tree/master",
+                "issues": "https://github.com/datalaere/php-auth/issues"
+            },
+            "time": "2020-02-18T23:14:20+00:00"
+        },
         {
             "name": "datalaere/php-crud",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/datalaere/php-crud.git",
-                "reference": "aec745159710e067bb6dfb686f94e0f5beee7027"
+                "reference": "fdd7a27c3081f4e483ef8cb96fab147920c30c24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datalaere/php-crud/zipball/aec745159710e067bb6dfb686f94e0f5beee7027",
-                "reference": "aec745159710e067bb6dfb686f94e0f5beee7027",
+                "url": "https://api.github.com/repos/datalaere/php-crud/zipball/fdd7a27c3081f4e483ef8cb96fab147920c30c24",
+                "reference": "fdd7a27c3081f4e483ef8cb96fab147920c30c24",
                 "shasum": ""
             },
             "require": {
@@ -37,7 +81,7 @@
                 "source": "https://github.com/datalaere/php-crud/tree/master",
                 "issues": "https://github.com/datalaere/php-crud/issues"
             },
-            "time": "2020-02-18T16:24:11+00:00"
+            "time": "2020-02-18T23:07:55+00:00"
         },
         {
             "name": "datalaere/php-di",
@@ -45,12 +89,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/datalaere/php-di.git",
-                "reference": "28e79d1130f8c10fe7357587082d61110b1df2f5"
+                "reference": "f6b0c429f73f982b7488e15771e97a3a0cd19f69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datalaere/php-di/zipball/28e79d1130f8c10fe7357587082d61110b1df2f5",
-                "reference": "28e79d1130f8c10fe7357587082d61110b1df2f5",
+                "url": "https://api.github.com/repos/datalaere/php-di/zipball/f6b0c429f73f982b7488e15771e97a3a0cd19f69",
+                "reference": "f6b0c429f73f982b7488e15771e97a3a0cd19f69",
                 "shasum": ""
             },
             "require": {
@@ -71,7 +115,7 @@
                 "source": "https://github.com/datalaere/php-di/tree/master",
                 "issues": "https://github.com/datalaere/php-di/issues"
             },
-            "time": "2020-02-05T20:24:11+00:00"
+            "time": "2020-02-18T16:58:01+00:00"
         },
         {
             "name": "datalaere/php-filesystem",
@@ -79,12 +123,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/datalaere/php-filesystem.git",
-                "reference": "1b84394b2607d1dc3cb26fe41d78583a44e74b8d"
+                "reference": "4e990eb88c80d0284b95f6e4eb806482681f35bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datalaere/php-filesystem/zipball/1b84394b2607d1dc3cb26fe41d78583a44e74b8d",
-                "reference": "1b84394b2607d1dc3cb26fe41d78583a44e74b8d",
+                "url": "https://api.github.com/repos/datalaere/php-filesystem/zipball/4e990eb88c80d0284b95f6e4eb806482681f35bf",
+                "reference": "4e990eb88c80d0284b95f6e4eb806482681f35bf",
                 "shasum": ""
             },
             "require": {
@@ -105,7 +149,7 @@
                 "source": "https://github.com/datalaere/php-filesystem/tree/master",
                 "issues": "https://github.com/datalaere/php-filesystem/issues"
             },
-            "time": "2020-02-18T16:19:36+00:00"
+            "time": "2020-02-18T23:07:45+00:00"
         },
         {
             "name": "datalaere/php-http",
@@ -113,12 +157,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/datalaere/php-http.git",
-                "reference": "d169b4490040e1b53d4f794adf733cda3ecb6968"
+                "reference": "7a9b96408715902d55754feadd344cb4439de592"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datalaere/php-http/zipball/d169b4490040e1b53d4f794adf733cda3ecb6968",
-                "reference": "d169b4490040e1b53d4f794adf733cda3ecb6968",
+                "url": "https://api.github.com/repos/datalaere/php-http/zipball/7a9b96408715902d55754feadd344cb4439de592",
+                "reference": "7a9b96408715902d55754feadd344cb4439de592",
                 "shasum": ""
             },
             "require": {
@@ -139,7 +183,7 @@
                 "source": "https://github.com/datalaere/php-http/tree/master",
                 "issues": "https://github.com/datalaere/php-http/issues"
             },
-            "time": "2020-02-18T16:29:03+00:00"
+            "time": "2020-02-18T23:07:33+00:00"
         },
         {
             "name": "datalaere/php-mvc",
@@ -147,12 +191,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/datalaere/php-mvc.git",
-                "reference": "ff31f7f93d19984d7e407a07cd1fee365bd45e0e"
+                "reference": "31942e9d414387e7d962acd9ba2ab31d484ad994"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datalaere/php-mvc/zipball/ff31f7f93d19984d7e407a07cd1fee365bd45e0e",
-                "reference": "ff31f7f93d19984d7e407a07cd1fee365bd45e0e",
+                "url": "https://api.github.com/repos/datalaere/php-mvc/zipball/31942e9d414387e7d962acd9ba2ab31d484ad994",
+                "reference": "31942e9d414387e7d962acd9ba2ab31d484ad994",
                 "shasum": ""
             },
             "require": {
@@ -174,7 +218,37 @@
                 "source": "https://github.com/datalaere/php-mvc/tree/master",
                 "issues": "https://github.com/datalaere/php-mvc/issues"
             },
-            "time": "2020-02-18T16:19:02+00:00"
+            "time": "2020-02-18T23:07:13+00:00"
+        },
+        {
+            "name": "datalaere/php-security",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/datalaere/php-security.git",
+                "reference": "c2222afbc2ca918119433f8e5b0bd9803071499f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/datalaere/php-security/zipball/c2222afbc2ca918119433f8e5b0bd9803071499f",
+                "reference": "c2222afbc2ca918119433f8e5b0bd9803071499f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHP\\Security\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Simple classes to use in php for security",
+            "time": "2020-02-04T22:16:20+00:00"
         }
     ],
     "packages-dev": [],
@@ -185,6 +259,7 @@
         "datalaere/php-di": 20,
         "datalaere/php-http": 20,
         "datalaere/php-crud": 20,
+        "datalaere/php-auth": 20,
         "datalaere/php-filesystem": 20
     },
     "prefer-stable": true,
