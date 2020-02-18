@@ -29,9 +29,6 @@
             "url": "https://github.com/datalaere/php-filesystem"
         }
     ],
-    "require-dev": {
-        "phpunit/phpunit": "^8.0"
-    },
     "require": {
         "php": ">=5.5.0",
         "datalaere/php-mvc": "dev-master",
