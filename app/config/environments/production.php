@@ -1,6 +1,10 @@
 <?php
 
 return [
+    'app' => [
+        'name' => $_ENV['APP_NAME'] ?: 'App',
+        'env' => $_ENV['APP_ENV']
+    ],
     'errors' => false, // set to false in production
     // Renderer settings
     'renderer' => [

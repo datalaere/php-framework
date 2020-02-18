@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/datalaere/php-crud.git",
-                "reference": "ea5a1c9d21c12a08a933f3a10fc1fe1c713f26d9"
+                "reference": "aec745159710e067bb6dfb686f94e0f5beee7027"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datalaere/php-crud/zipball/ea5a1c9d21c12a08a933f3a10fc1fe1c713f26d9",
-                "reference": "ea5a1c9d21c12a08a933f3a10fc1fe1c713f26d9",
+                "url": "https://api.github.com/repos/datalaere/php-crud/zipball/aec745159710e067bb6dfb686f94e0f5beee7027",
+                "reference": "aec745159710e067bb6dfb686f94e0f5beee7027",
                 "shasum": ""
             },
             "require": {
@@ -37,7 +37,7 @@
                 "source": "https://github.com/datalaere/php-crud/tree/master",
                 "issues": "https://github.com/datalaere/php-crud/issues"
             },
-            "time": "2020-02-06T08:45:48+00:00"
+            "time": "2020-02-18T16:24:11+00:00"
         },
         {
             "name": "datalaere/php-di",
@@ -79,12 +79,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/datalaere/php-filesystem.git",
-                "reference": "49efec0ecda8f7bb21ba146b5b2533ad5cf7a020"
+                "reference": "1b84394b2607d1dc3cb26fe41d78583a44e74b8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datalaere/php-filesystem/zipball/49efec0ecda8f7bb21ba146b5b2533ad5cf7a020",
-                "reference": "49efec0ecda8f7bb21ba146b5b2533ad5cf7a020",
+                "url": "https://api.github.com/repos/datalaere/php-filesystem/zipball/1b84394b2607d1dc3cb26fe41d78583a44e74b8d",
+                "reference": "1b84394b2607d1dc3cb26fe41d78583a44e74b8d",
                 "shasum": ""
             },
             "require": {
@@ -105,7 +105,7 @@
                 "source": "https://github.com/datalaere/php-filesystem/tree/master",
                 "issues": "https://github.com/datalaere/php-filesystem/issues"
             },
-            "time": "2020-02-06T10:47:28+00:00"
+            "time": "2020-02-18T16:19:36+00:00"
         },
         {
             "name": "datalaere/php-http",
@@ -113,12 +113,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/datalaere/php-http.git",
-                "reference": "630522e2ddfc9d36fe5c6ff1f6452a133f96ac73"
+                "reference": "d169b4490040e1b53d4f794adf733cda3ecb6968"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datalaere/php-http/zipball/630522e2ddfc9d36fe5c6ff1f6452a133f96ac73",
-                "reference": "630522e2ddfc9d36fe5c6ff1f6452a133f96ac73",
+                "url": "https://api.github.com/repos/datalaere/php-http/zipball/d169b4490040e1b53d4f794adf733cda3ecb6968",
+                "reference": "d169b4490040e1b53d4f794adf733cda3ecb6968",
                 "shasum": ""
             },
             "require": {
@@ -127,7 +127,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "PHP\\Http\\": "src/"
+                    "PHP\\HTTP\\": "src/"
                 }
             },
             "license": [
@@ -139,7 +139,7 @@
                 "source": "https://github.com/datalaere/php-http/tree/master",
                 "issues": "https://github.com/datalaere/php-http/issues"
             },
-            "time": "2020-02-05T13:42:34+00:00"
+            "time": "2020-02-18T16:29:03+00:00"
         },
         {
             "name": "datalaere/php-mvc",
@@ -147,12 +147,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/datalaere/php-mvc.git",
-                "reference": "320bc7085fd092731f20a0d2a3e39b06d1d0a7e4"
+                "reference": "ff31f7f93d19984d7e407a07cd1fee365bd45e0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datalaere/php-mvc/zipball/320bc7085fd092731f20a0d2a3e39b06d1d0a7e4",
-                "reference": "320bc7085fd092731f20a0d2a3e39b06d1d0a7e4",
+                "url": "https://api.github.com/repos/datalaere/php-mvc/zipball/ff31f7f93d19984d7e407a07cd1fee365bd45e0e",
+                "reference": "ff31f7f93d19984d7e407a07cd1fee365bd45e0e",
                 "shasum": ""
             },
             "require": {
@@ -174,7 +174,7 @@
                 "source": "https://github.com/datalaere/php-mvc/tree/master",
                 "issues": "https://github.com/datalaere/php-mvc/issues"
             },
-            "time": "2020-02-05T20:08:44+00:00"
+            "time": "2020-02-18T16:19:02+00:00"
         }
     ],
     "packages-dev": [],

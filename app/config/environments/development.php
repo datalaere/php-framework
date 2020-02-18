@@ -1,6 +1,10 @@
 <?php
 
 return [
+    'app' => [
+        'name' => $_ENV['APP_NAME'] ?: 'App',
+        'env' => $_ENV['APP_ENV']
+    ],
     'errors' => true, // set to false in production
     // Renderer settings
     'renderer' => [
@@ -13,7 +17,6 @@ return [
     ],
     // Log settings
     'logger' => [
-        'name' => $_ENV['APP_NAME'] ?: 'Slim 3 App',
         'path' => APP_PATH . 'storage/logs/error.log'
     ],
     'mail' => [

@@ -13,7 +13,7 @@ class DefaultController extends Controller
      */
     public function index()
     {
-        return $this->view->render(['default']);
+        return $this->view->render(['default'], $this->container);
     }
 
     /**

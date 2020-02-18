@@ -33,7 +33,8 @@ class UserController extends Controller
      */
     public function store()
     {
-        $user = new UserModel();
+       $user = new UserModel();
+        
     }
 
     /**
