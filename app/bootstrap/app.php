@@ -38,9 +38,14 @@ if (file_exists(ROOT_PATH . 'env.ini')) {
 |
 */
 
-foreach(glob(APP_PATH . 'config/framework/*.{php}', GLOB_BRACE) as $config) {
-    require_once $config;
-}
+require_once APP_PATH . 'config/framework/debug.php';
+require_once APP_PATH . 'config/framework/helpers.php';
+require_once APP_PATH . 'config/framework/session.php';
+require_once APP_PATH . 'config/framework/router.php';
+require_once APP_PATH . 'config/framework/view.php';
+require_once APP_PATH . 'config/framework/cache.php';
+require_once APP_PATH . 'config/framework/database.php';
+require_once APP_PATH . 'config/framework/auth.php';
 
 /*
 |--------------------------------------------------------------------------

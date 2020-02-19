@@ -4,7 +4,7 @@ namespace App\Models;
 
 use PHP\MVC\Model;
 
-class UserModel extends Model
+class DefaultModel extends Model
 {
     //
 }

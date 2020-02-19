@@ -3,13 +3,24 @@
 namespace App\Controllers;
 
 use PHP\MVC\Controller;
+use PHP\HTTP\Response;
 
-use App\Models\UserModel;
+use App\Models\DefaultModel;
 
 class UserController extends Controller
 {
 
-        /**
+    public function __construct()
+    {
+        parent::__construct();
+
+        if(!$this->c->get('Auth')->check()) {
+            return Response::redirect('/');
+        }
+    }
+
+
+    /**
      * Display a listing of the resource.
      *
      */
@@ -33,7 +44,7 @@ class UserController extends Controller
      */
     public function store()
     {
-       $user = new UserModel();
+       $default = new DefaultModel();
         
     }
 

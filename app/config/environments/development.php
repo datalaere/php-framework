@@ -28,13 +28,13 @@ return [
         'default'   => ['email' => 'no-reply@mail.com', 'from' => 'Webmaster'],
     ],
     'connections' => [
-        'enabled' => false,
+        'enabled' => true,
         'mysql' => [
             'driver'    => $_ENV['DB_DRIVER'] ?: 'mysql',
             'host'      => $_ENV['DB_HOST'] ?: 'localhost',
             'database'  => $_ENV['DB_NAME'] ?: 'database',
             'username'  => $_ENV['DB_USER'] ?: 'root',
-            'password'  => $_ENV['DB_PASS'] ?: 'mysql',
+            'password'  => $_ENV['DB_PASS'] ?: '',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => $_ENV['DB_PREFIX'] ?: '',
