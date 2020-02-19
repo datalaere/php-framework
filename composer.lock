@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/datalaere/php-auth.git",
-                "reference": "6a44bbe75b9118c6ca7d39b44f1edc5d2f340aa6"
+                "reference": "12f8a39eb099c6cf6183180b23c02db8e839e379"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datalaere/php-auth/zipball/6a44bbe75b9118c6ca7d39b44f1edc5d2f340aa6",
-                "reference": "6a44bbe75b9118c6ca7d39b44f1edc5d2f340aa6",
+                "url": "https://api.github.com/repos/datalaere/php-auth/zipball/12f8a39eb099c6cf6183180b23c02db8e839e379",
+                "reference": "12f8a39eb099c6cf6183180b23c02db8e839e379",
                 "shasum": ""
             },
             "require": {
@@ -48,7 +48,7 @@
                 "source": "https://github.com/datalaere/php-auth/tree/master",
                 "issues": "https://github.com/datalaere/php-auth/issues"
             },
-            "time": "2020-02-18T23:14:20+00:00"
+            "time": "2020-02-19T09:11:21+00:00"
         },
         {
             "name": "datalaere/php-crud",
@@ -56,12 +56,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/datalaere/php-crud.git",
-                "reference": "fdd7a27c3081f4e483ef8cb96fab147920c30c24"
+                "reference": "7531ffacbbce6780ab1149c1b58737929d14974c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datalaere/php-crud/zipball/fdd7a27c3081f4e483ef8cb96fab147920c30c24",
-                "reference": "fdd7a27c3081f4e483ef8cb96fab147920c30c24",
+                "url": "https://api.github.com/repos/datalaere/php-crud/zipball/7531ffacbbce6780ab1149c1b58737929d14974c",
+                "reference": "7531ffacbbce6780ab1149c1b58737929d14974c",
                 "shasum": ""
             },
             "require": {
@@ -70,7 +70,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "PHP\\Crud\\": "src/"
+                    "PHP\\CRUD\\": "src/"
                 }
             },
             "license": [
@@ -81,7 +81,7 @@
                 "source": "https://github.com/datalaere/php-crud/tree/master",
                 "issues": "https://github.com/datalaere/php-crud/issues"
             },
-            "time": "2020-02-18T23:07:55+00:00"
+            "time": "2020-02-19T10:27:54+00:00"
         },
         {
             "name": "datalaere/php-di",
@@ -191,12 +191,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/datalaere/php-mvc.git",
-                "reference": "31942e9d414387e7d962acd9ba2ab31d484ad994"
+                "reference": "99c6f1e51b3f8cc3f1c6090bd3b85b79a46c64ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datalaere/php-mvc/zipball/31942e9d414387e7d962acd9ba2ab31d484ad994",
-                "reference": "31942e9d414387e7d962acd9ba2ab31d484ad994",
+                "url": "https://api.github.com/repos/datalaere/php-mvc/zipball/99c6f1e51b3f8cc3f1c6090bd3b85b79a46c64ca",
+                "reference": "99c6f1e51b3f8cc3f1c6090bd3b85b79a46c64ca",
                 "shasum": ""
             },
             "require": {
@@ -218,7 +218,7 @@
                 "source": "https://github.com/datalaere/php-mvc/tree/master",
                 "issues": "https://github.com/datalaere/php-mvc/issues"
             },
-            "time": "2020-02-18T23:07:13+00:00"
+            "time": "2020-02-19T09:11:02+00:00"
         },
         {
             "name": "datalaere/php-security",
